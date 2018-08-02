@@ -36,7 +36,7 @@ class	FlatNamespace( object ):
 		destdir = self.opts.destdir[ 0 ]
 		if self.opts.depth:
 			subdirs = [
-				c.tolower() for c in original[:self.opts.depth]
+				c.lower() for c in original[:self.opts.depth]
 			]
 			bucket = os.sep.join( subdirs )
 			destdir = os.path.join( destdir, bucket )
