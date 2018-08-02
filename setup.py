@@ -7,7 +7,7 @@ import	glob
 import	os
 
 NAME	= 'fns'
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 with open( '{0}/version.py'.format( NAME ), 'w') as f:
 	print >>f, 'Version="{0}"'.format( VERSION )
